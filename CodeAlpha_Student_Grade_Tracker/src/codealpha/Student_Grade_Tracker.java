@@ -15,6 +15,7 @@ import java.awt.Font;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.ImageIcon;
 
 public class Student_Grade_Tracker {
 
@@ -321,5 +322,10 @@ public class Student_Grade_Tracker {
         percentage.setColumns(10);
         percentage.setBounds(364, 446, 167, 31);
         panel.add(percentage);
+        
+        JLabel lblNewLabel_2 = new JLabel("");
+        lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\Akshada Mane\\Downloads\\Loginpage (3).jpg"));
+        lblNewLabel_2.setBounds(0, 0, 813, 635);
+        panel.add(lblNewLabel_2);
     }
 }
